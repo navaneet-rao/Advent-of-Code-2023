@@ -2,7 +2,7 @@ file = open("D:\\codes\\AOC2023\\DAY2\\input-part1.txt").read().strip()
 ans = 0
 for line in file.split('\n'):
     ok = True
-    # print(line)
+    print(line)
     _id, line = line.split(':')
     for event in line.split(';'):
         # print(event)
